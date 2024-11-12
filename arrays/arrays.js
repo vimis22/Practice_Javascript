@@ -87,3 +87,17 @@ console.log(index1);
 
 let index2 = numbers.indexOf(6);
 console.log(index2);
+
+//Opgave 18
+const schoolname = ["university","of","southern","denmark"];
+console.log(schoolname.join(""));
+
+//Opgave 19
+const newtal= nytal.map((x) => x*2);
+console.log(newtal);
+
+//Opgave 20
+const randomnumbers = [1,3,5,7,9];
+const filteredNumbers = randomnumbers.filter(randomnumbers => randomnumbers > 5);
+console.log(filteredNumbers);
+
